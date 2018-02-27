@@ -1,0 +1,26 @@
+{
+  "name": "reduxsample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --progress --colors --host 0.0.0.0",
+    "build": "webpack --progress --colors "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zl86790/ReduxSample.git"
+  },
+  "author": "lizhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zl86790/ReduxSample/issues"
+  },
+  "homepage": "https://github.com/zl86790/ReduxSample#readme",
+  "dependencies": {
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.0.0"
+  }
+}
