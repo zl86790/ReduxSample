@@ -1,9 +1,14 @@
 var webpack = require('webpack');
 module.exports = {
-  entry: './src/app.js',
+  entry:  {
+	    App: './src/app.js',
+	    App2: './src/app2.js',
+	    App3: './src/app3.js',
+	    Global: './src/Global.js',
+  },
   output: {
       path: __dirname + '/build',
-      filename: "index.js"
+      filename: "[name].js"
   },
   module: {
       rules: [{
