@@ -16,21 +16,21 @@ class Counter extends React.Component {
 		Global.value = 0;
 	}
 
-	  state = {
+	state = {
 		value: Global.value
-	  };
+	};
 	onIncrement = () => {
 		Global.value++;
 		this.setState({
-		      value:Global.value,
-		    });
+	      value:Global.value,
+	    });
 	}
 
 	onDecrement = () => {
 		Global.value--;
 		this.setState({
-		      value:Global.value,
-		    });
+	      value:Global.value,
+	    });
 	}
 	
 	render() {
@@ -42,26 +42,25 @@ class Counter extends React.Component {
 			</div>
 		)
 	}
-	
 }
 
 class Counter222 extends React.Component {
-	  state = {
-				value: Global.value
-			  };
-			onIncrement = () => {
-				Global.value++;
-				this.setState({
-			      value:Global.value,
-			    });
-			}
+	state = {
+		value: Global.value
+	};
+	onIncrement = () => {
+		Global.value++;
+		this.setState({
+		    value:Global.value,
+		});
+	}
 
-			onDecrement = () => {
-				Global.value--;
-				this.setState({
-				      value:Global.value,
-				    });
-			}
+	onDecrement = () => {
+		Global.value--;
+		this.setState({
+	      value:Global.value,
+	    });
+	}
 	
 	render() {
 		return(
