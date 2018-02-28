@@ -3,6 +3,14 @@ import { createStore } from 'redux'
 import ReactDOM  from 'react-dom'
 import React  from 'react'
 
+/**
+ * 
+ * 
+ * 无状态组件
+ * 使用了redux
+ * 
+ * 
+ * **/
 
 const Counter = ({ value, onIncrement, onDecrement }) => (
   <div>

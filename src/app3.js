@@ -3,6 +3,13 @@ import { createStore } from 'redux'
 import ReactDOM  from 'react-dom'
 import React  from 'react'
 
+/****
+ * 
+ * 有状态组件
+ * 使用了redux
+ * 通过构造函数绑定
+ * 
+ * ***/
 
 class Counter extends React.Component {
 	constructor(props) {

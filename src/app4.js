@@ -3,6 +3,16 @@ import { createStore } from 'redux'
 import ReactDOM  from 'react-dom'
 import React, { Component } from 'react';  
 
+/**
+ * 
+ * 有状态组件
+ * 使用redux
+ * 通过provider和connect绑定
+ * 
+ * 
+ * ***/
+
+
 class Counter extends Component{  
 	render() {  
 		const {value,handleIncrement,handleDecrement} = this.props;  
