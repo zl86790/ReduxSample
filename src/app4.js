@@ -79,10 +79,10 @@ Counter222 = connect(mapStateToProps, mapDispatchToProps)(Counter222)
 
 ReactDOM.render(  
     <Provider store={store}>  
-    <div>
-        <Counter />  
-        <Counter222 />  
-    </div>
+	    <div>
+	        <Counter />  
+	        <Counter222 />  
+	    </div>
     </Provider>,  
     document.getElementById('root')  
 )  

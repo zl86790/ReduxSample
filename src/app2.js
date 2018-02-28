@@ -5,6 +5,7 @@ import Global from './Global.js';
 /****
  * 
  * 使用了一个名为Global的公共组件
+ * 不使用redux
  * 不能同步render但是可以共享数据
  * 
  * ******/
