@@ -1,19 +1,12 @@
 import {createStore, combineReducers} from 'redux';
+import {reducer as CounterReducer} from './CounterReducer.js';
 
-//reducer
-const counterReducer = (state = 0, action) => {
-  switch (action.type) {
-    case 'INCREMENT': return state + 1;
-    case 'DECREMENT': return state - 1;
-    default: return state;
-  }
-};
 
-const countCombineReducer = combineReducers({
-	num:counterReducer
+const allCombineReducer = combineReducers({
+	num:CounterReducer
 })
 
 //store
-const store = createStore(countCombineReducer);
+const store = createStore(allCombineReducer);
 
 export default store;
