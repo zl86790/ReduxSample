@@ -9,7 +9,7 @@ import store from './Store.js';
  * 有状态组件
  * 使用redux
  * 通过provider和connect绑定
- * 
+ * combineReducers
  * 
  * ***/
 

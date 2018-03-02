@@ -7,6 +7,7 @@ module.exports = {
 	    App4: './src/app4.js',
 	    App5: './src/app5.js',
 	    App6: './src/app6.js',
+	    App7: './src/app7.js',
 	    Global: './src/Global.js',
   },
   output: {
